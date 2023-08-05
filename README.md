@@ -4,4 +4,4 @@ This portfolio website is a showcase of my engineering experience, education, an
 
 You can view the main website here: https://rahulshagri.github.io/
 
-Design credits: https://html5up.net/forty
+Design credits: https://html5up.net/forty 
