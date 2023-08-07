@@ -1,16 +1,13 @@
 <!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
-		<title>Landing - Forty by HTML5 UP</title>
+		<title>Rahul Shagrithaya - Photography</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="icon" href="images/webpage_thumbnail.png">
 	</head>
 	<body class="is-preload">
 
@@ -18,9 +15,8 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-				<!-- Note: The "styleN" class below should match that of the banner element. -->
-					<header id="header" class="alt style2">
-						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Rahul</strong> <span>Shagrithaya</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -30,51 +26,105 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Landing</a></li>
-							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="aboutme.html">About Me</a></li>
+							<li><a href="industryexperience.html">Industry Experience</a></li>
+							<li><a href="engineeringprojects.html">Engineering Projects</a></li>
+							<li><a href="programmingprojects.html">Programming Projects</a></li>
+							<li><a href="education.html">Education</a></li>
+							<li><a href="photography.html">Photography</a></li>
 						</ul>
 						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
+							<li><a href="/resources/Shagrithaya_Rahul_Resume.pdf" class="button icon solid fa-download" target="_blank">Download Resume</a></li>
+							<li><a href="#contact" class="button next scrolly">Contact</a></li>
 						</ul>
 					</nav>
 
 				<!-- Banner -->
-				<!-- Note: The "styleN" class below should match that of the header element. -->
-					<section id="banner" class="style2">
+					<section id="banner" class="major">
 						<div class="inner">
 							<span class="image">
-								<img src="images/pic07.jpg" alt="" />
+								<img src="images/photography/photography_banner.jpg" alt="" />
 							</span>
 							<header class="major">
-								<h1>Webpage Is Under Development!</h1>
+								<h1>Welcome to my photography portfolio!</h1>
 							</header>
 							<div class="content">
-								<p></p>
+								<p>Discover the world through my lens as I capture life's<br>
+									beauty and emotions in captivating photographs.</p>
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Enter Gallery</a></li>
+								</ul>
 							</div>
 						</div>
 					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/photography/photography_pic01.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="" class="link">Toronto</a></h3>
+										<p>A dynamic and diverse urban centre</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/photography/photography_pic02.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="" class="link">People</a></h3>
+										<p>A journey of life</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/photography/photography_pic03.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="" class="link">History</a></h3>
+										<p>Capturing the eternal past</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/photography/photography_pic04.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="" class="link">Winter</a></h3>
+										<p>A frozen Tale in Frames</p>
+									</header>
+								</article>
+
+							</section>
+
+					</div>
 
 				<!-- Contact -->
 					<section id="contact">
 						<div class="inner">
 							<section>
-								<form method="post" action="#">
+
+								<form method="post" action="https://formspree.io/xpzykvng">
 									<div class="fields">
 										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<label for="name">Name*</label>
+											<input type="text" name="name" id="name" required/>
 										</div>
 										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<label for="email">Email*</label>
+											<input type="text" name="email" id="email" required/>
 										</div>
 										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
+											<label for="message">Message*</label>
+											<textarea name="message" id="message" rows="6" required></textarea>
 										</div>
 									</div>
+									<h6>*Required</h6>
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Clear" /></li>
@@ -86,23 +136,21 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
 										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
+										<a href="mailto:rahulshagrithaya99@gmail.com">rahulshagrithaya99@gmail.com</a>
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
+										<span class="icon brands alt fa-linkedin-in"></span>
+										<h3>LinkedIn</h3>
+										<a href="https://www.linkedin.com/in/rahul-shagri/" target="_blank">https://www.linkedin.com/in/rahul-shagri/</a>
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
+										<span class="icon brands alt fa-instagram"></span>
+										<h3>Instagram</h3>
+										<a href="https://instagram.com/_bit_of_photography_" target="_blank">https://instagram.com/_bit_of_photography_</a>
 									</div>
 								</section>
 							</section>
@@ -113,14 +161,13 @@
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:rahulshagrithaya99@gmail.com" class="icon solid alt fa-envelope"" target="_blank"><span class="label">Email</span></a></li>
+								<li><a href="https://instagram.com/_bit_of_photography_" class="icon brands alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/RahulShagri/" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/rahul-shagri/" class="icon brands alt fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li>&copy; <a href="https://rahulshagri.github.io/">Rahul Shagrithaya.</a> All Rights Reserved.</li>
 							</ul>
 						</div>
 					</footer>
